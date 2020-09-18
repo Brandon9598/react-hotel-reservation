@@ -112,10 +112,8 @@ h6 {
   color: var(--primaryColor);
 }
 .nav-links {
-  /* 
-  TODO: Put back
   height: 0;
-  overflow: hidden; */
+  overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
 }
@@ -254,6 +252,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
