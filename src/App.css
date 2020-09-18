@@ -112,8 +112,10 @@ h6 {
   color: var(--primaryColor);
 }
 .nav-links {
+  /* 
+  TODO: Put back
   height: 0;
-  overflow: hidden;
+  overflow: hidden; */
   transition: var(--mainTransition);
   list-style-type: none;
 }
